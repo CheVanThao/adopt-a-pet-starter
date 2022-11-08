@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { getPetDetails } from '../../api/petfinder';
 import Hero from '../../components/hero';
-import { Redirect } from 'react-router-dom';
 import PetDetailsNotFound from '../petDetailsNotFound';
 
 const PetDetailsPage = () => {
